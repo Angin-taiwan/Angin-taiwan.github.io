@@ -1,11 +1,35 @@
 @charset "UTF-8";
 
+header.masthead {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: black;
+    /* background-image: url("../assets/img/header-bg.jpg"); */
+    background-color: #f8e7d5 ;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+  }
+
 .mastheadLogo{
     max-width: 50%;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
-@media  (max-width: 576px) {
+
+@media  (max-width: 768px) {
     .mastheadLogo{
-    max-width: 75%;
+        max-width: 75%;
     }
+    header.masthead{
+        padding-top: 10rem;
+    }
+}
+
+@media (min-width: 768px){
+    header.masthead {
+        padding-top: 10rem;
+        padding-bottom: 12.5rem;
+      }
 }
