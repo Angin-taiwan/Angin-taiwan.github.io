@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.mastheadLogo{
+    max-width: 50%;
+    margin-bottom: 1rem;
+}
+@media  (max-width: 576px) {
+    .mastheadLogo{
+    max-width: 75%;
+    }
+}
