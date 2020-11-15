@@ -112,7 +112,7 @@ line-height: 73px;
     font-size: 1rem;
 }
 
-@media (max-width : 576px){
+@media (max-width : 768px){
   h3, .h3{
     font-size: 1rem;
   }
