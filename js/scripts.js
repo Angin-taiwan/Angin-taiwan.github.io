@@ -54,3 +54,13 @@
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
+
+
+// 偵測IOS
+
+var WhatSystem = navigator.userAgent;
+
+if(WhatSystem.match(/(iphone|ipad|ipod);?/i)){
+    var mylogo =document.getElementsByClassName('mastheadLogo')[0]; 
+    mylogo.setAttribute("src","assets\\img\\Masthead\\LOGO_ios.png")
+  };

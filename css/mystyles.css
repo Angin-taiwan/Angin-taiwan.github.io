@@ -63,9 +63,7 @@ header.masthead {
   }
 
 
-.tobecontinue{
-/* padding: 1rem 0; */
-}
+
 
 @media  (max-width: 768px) {
     .mastheadLogo{
@@ -81,4 +79,41 @@ header.masthead {
         padding-top: 10rem;
         padding-bottom: 12.5rem;
       }
+}
+
+
+/* timeline 之 敬請期待 */
+.timeline > li .timeline-image.text-box {
+line-height: 73px;
+}
+  @media (min-width: 768px){
+    .timeline > li .timeline-image.text-box {
+      line-height: 93px;
+      }
+  }
+
+  @media (min-width: 992px){
+    .timeline > li .timeline-image.text-box {
+      line-height: 143px;
+      }
+  }
+
+  @media (min-width: 1200px){
+    .timeline > li .timeline-image.text-box {
+      line-height: 163px;
+      }
+  }
+
+  .timeline > li .timeline-image .text-content {
+    display: inline-block;
+    height: auto;
+    line-height:1;
+    vertical-align: middle;
+    font-size: 1rem;
+}
+
+@media (max-width : 576px){
+  h3, .h3{
+    font-size: 1rem;
+  }
 }
