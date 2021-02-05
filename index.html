@@ -22,6 +22,7 @@
 </head>
 
 <body id="page-top">
+
     <!-- Load Facebook SDK for JavaScript -->
     <div id="fb-root"></div>
     <script>
@@ -36,12 +37,12 @@
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Your Chat Plugin code -->
-    <div class="fb-customerchat" attribution="setup_tool" page_id="104284521494490" theme_color="#0A7CFF"
+    <div class="fb-customerchat" attribution="setup_tool" page_id="104284521494490"
         logged_in_greeting="您好，我們蘆洲區的日間照顧中心，歡迎來訊諮詢或預約參觀" logged_out_greeting="您好，我們蘆洲區的日間照顧中心，歡迎來訊諮詢或預約參觀">
     </div>
 
